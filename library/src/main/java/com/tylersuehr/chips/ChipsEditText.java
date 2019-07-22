@@ -1,7 +1,7 @@
 package com.tylersuehr.chips;
 import android.content.Context;
 import android.graphics.Paint;
-import android.support.v7.widget.AppCompatEditText;
+import androidx.appcompat.widget.AppCompatEditText;
 import android.text.InputType;
 import android.view.KeyEvent;
 import android.view.ViewGroup;
@@ -23,7 +23,7 @@ import android.widget.RelativeLayout;
  * @author Tyler Suehr
  * @version 1.0
  */
-class ChipsEditText extends AppCompatEditText implements ChipComponent {
+public class ChipsEditText extends AppCompatEditText implements ChipComponent {
     private OnKeyboardListener mKeyboardListener;
 
 

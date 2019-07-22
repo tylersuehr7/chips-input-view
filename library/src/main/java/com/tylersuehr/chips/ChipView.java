@@ -1,8 +1,8 @@
 package com.tylersuehr.chips;
 import android.content.Context;
 import android.graphics.PorterDuff;
-import android.support.annotation.NonNull;
-import android.support.constraint.ConstraintLayout;
+import androidx.annotation.NonNull;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;

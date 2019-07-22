@@ -1,5 +1,5 @@
 package com.tylersuehr.chips;
-import android.support.annotation.VisibleForTesting;
+import androidx.annotation.VisibleForTesting;
 import java.util.LinkedList;
 import java.util.List;
 

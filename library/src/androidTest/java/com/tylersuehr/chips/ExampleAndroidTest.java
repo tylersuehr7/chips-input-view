@@ -1,6 +1,6 @@
 package com.tylersuehr.chips;
 
-import android.support.test.runner.AndroidJUnit4;
+import androidx.test.runner.AndroidJUnit4;
 
 import org.junit.runner.RunWith;
 

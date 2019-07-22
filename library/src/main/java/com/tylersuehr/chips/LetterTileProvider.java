@@ -11,7 +11,7 @@ import android.graphics.Rect;
 import android.graphics.Typeface;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
-import android.support.v4.content.ContextCompat;
+import androidx.core.content.ContextCompat;
 import android.text.TextPaint;
 
 /**
@@ -155,7 +155,7 @@ public class LetterTileProvider {
      * Java versions, which implicates that the same key always maps to the same color.
      *
      * @param key Any string value
-     * @return {@link android.support.annotation.ColorInt}
+     * @return {@link androidx.annotation.ColorInt}
      */
     private int pickColor(String key) {
         final int whichColor = Math.abs(key.hashCode()) % colors.length;
